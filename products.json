@@ -1,1 +1,46 @@
-[]
+[
+    {
+        "id": 1,
+        "title": "iPhone 15 Pro Max",
+        "description": "Smartphone Apple con chip A17 Pro, 256GB, cámara triple de 48MP, pantalla Super Retina XDR de 6.7 pulgadas",
+        "code": "IPH15PM001",
+        "price": 1299999,
+        "status": true,
+        "stock": 15,
+        "category": "Smartphones",
+        "thumbnails": "https://ejemplo.com/iphone15-pro-max.jpg"
+    },
+    {
+        "id": 2,
+        "title": "iPhone",
+        "description": "Smartphone Apple con chip A17 Pro, 256GB, cámara triple de 48MP, pantalla Super Retina XDR de 6.7 pulgadas",
+        "code": "IPH15PM001",
+        "price": 1299999,
+        "status": true,
+        "stock": 5,
+        "category": "Smartphones",
+        "thumbnails": "https://ejemplo.com/iphone15-pro-max.jpg"
+    },
+    {
+        "id": 3,
+        "title": "iPhone",
+        "description": "Smartphone Apple con chip A17 Pro, 256GB, cámara triple de 48MP, pantalla Super Retina XDR de 6.7 pulgadas",
+        "code": "IPH15PM001",
+        "price": 1299999,
+        "status": true,
+        "stock": 5,
+        "category": "Smartphones",
+        "thumbnails": "https://ejemplo.com/iphone15-pro-max.jpg"
+    },
+    {
+        "id": 4,
+        "title": "iPhone 15 Pro Max",
+        "description": "Smartphone Apple con chip A17 Pro, 256GB, cámara triple de 48MP, pantalla Super Retina XDR de 6.7 pulgadas",
+        "code": "IPH15PM001",
+        "price": 1299999,
+        "status": true,
+        "stock": 15,
+        "category": "Smartphones",
+        "thumbnails": "https://ejemplo.com/iphone15-pro-max.jpg"
+    }
+]
