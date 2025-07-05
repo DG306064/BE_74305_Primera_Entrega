@@ -132,13 +132,16 @@ APP.post('/api/carts', async (req, res) =>{
 APP.post('/api/carts/:cid/product/:pid', async (req, res) =>{
     const cid = parseInt(req.params.cid)
     const pid = parseInt(req.params.pid)
-    const quantity = parseInt(req.body.quantity)
+    const {quantity} = req.body
+
     if(typeof quantity === 'number' && quantity > 0){
-        const cart = cartsManager.addProductToCart(cid, pid, quantity)
+        const cart = await cartsManager.addProductToCart(cid, pid, quantity)
         return res.status(200).json(cart)
+    }else{
+        return res.status(404).json("Ocurrio un error")
     }
     
-    return res.status(404).json("Ocurrio un error")
+    
 
 })
 
